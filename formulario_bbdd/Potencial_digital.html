@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Potencial Digital</title>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Aitor Gragera Martin">
+    <link rel="stylesheet" href="Estilos.css"/>
+</head>
+<body>
+    <h1>POTENCIAL DIGITAL</h1>
+    <div>
+        <form method="post" action="mostrar_datos.php">
+            <label for="Nombre">Nombre: </label>
+            <input type="text" name="Nombre" id="Nombre" required>
+            <label for="Telefono">Teléfono: </label>
+            <input type="text" name="Telefono" id="Telefono" required>
+            <label for="Correo">Correo: </label>
+            <input type="text" name="Correo" id="Correo" required>
+            <label for="Informacion">Información: </label>
+            <input type="text" name="Informacion" id="Informacion" required>
+            <label for="Tema">Tema: </label>
+            <select name="Tema" id="Tema">
+                <option value="1">Segurdad informatica</option>
+                <option value="2">Inteligencia Artificial</option>
+                <option value="3">Robotica</option>
+            </select>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </div>
+</body>
+</html>
